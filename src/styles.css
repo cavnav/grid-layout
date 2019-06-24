@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.layout > div {
+  border: 1px solid;
+}
+
+.rowHeader,
+.colHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.cellData {
+  font-size: 12px;
+}
